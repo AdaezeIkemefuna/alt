@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <data__meta charset="UTF-8" />
+    <data__meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <data__meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Restaurant-Chatchat__bot</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="chat__wrapper">
+        <div class="chat__header">
+          <h1 class="header__text">Welcome to Eriwa Agwuagwu🍝!</h1>
+        </div>
+        <div class="chat__body"></div>
+        <div class="form__wrapper">
+          <form id="form">
+            <input
+              id="msg"
+              type="text"
+              placeholder="Enter Message"
+              required
+              autofocus
+              autocomplete="off"
+            />
+            <button class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+      integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
